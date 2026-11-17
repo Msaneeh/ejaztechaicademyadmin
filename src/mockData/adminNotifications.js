@@ -1,0 +1,42 @@
+export const adminNotifications = [
+  {
+    id: "NTF-001",
+    type: "security",
+    title: "Multiple Failed Login Attempts",
+    message: "5 failed login attempts detected for admin@ejaztech.ai from IP 192.168.1.45.",
+    time: "10 minutes ago",
+    read: false,
+  },
+  {
+    id: "NTF-002",
+    type: "verification",
+    title: "New Tutor Verification Request",
+    message: "Amina Yusuf submitted her credentials for review.",
+    time: "35 minutes ago",
+    read: false,
+  },
+  {
+    id: "NTF-003",
+    type: "course",
+    title: "Course Submitted for Review",
+    message: "Introduction to Data Science by Ibrahim Musa is awaiting approval.",
+    time: "1 hour ago",
+    read: false,
+  },
+  {
+    id: "NTF-004",
+    type: "support",
+    title: "New Support Ticket",
+    message: "A student reported a payment issue with the React course.",
+    time: "2 hours ago",
+    read: true,
+  },
+  {
+    id: "NTF-005",
+    type: "system",
+    title: "Platform Update Complete",
+    message: "The scheduled maintenance window has ended and all services are online.",
+    time: "Yesterday",
+    read: true,
+  },
+];
